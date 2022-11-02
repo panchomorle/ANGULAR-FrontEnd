@@ -1,1 +1,139 @@
-/* You can add global styles to this file, and also import other style files */
+body, html{
+    background-image: url("https://i.ibb.co/BBT5xHs/galaxia.jpg");
+    background-size: cover ;
+    margin:0px;  
+    height:100%; 
+    width: 100%; 
+    scroll-behavior: smooth;
+    font-family: 'Andika', sans-serif;
+}
+/* font-family: 'Andika', sans-serif; P
+font-family: 'Coda', cursive; H1
+font-family: 'Montserrat Alternates', sans-serif; H2 */
+.icono{
+    font-size: 24px;
+    
+}
+.icono:hover{
+    color: rgb(162, 162, 255);
+    transition: 0.3s;
+}
+
+p{
+    font-size: 18px;
+    
+}
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    color: rgb(172, 172, 172);
+}
+
+.masthead{
+    
+    height: 85%;
+    background-size: cover;
+    color: White;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    
+}
+.color-overlay{
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.color-overlay h1{
+    font-family: 'Coda', cursive;
+    font-weight: bold;
+    font-size: 1fr;
+
+}
+.color-overlay h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1rem;
+}
+
+.separador{
+    margin: auto;
+    margin-bottom: 0.5em;
+    text-align: center;
+    justify-content: center;
+    height: 1px;
+    max-width: 5em;
+    background-color: white;
+    opacity: 1;
+}
+.navbar{
+    max-height: 75px;
+    width: 100%;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+}
+.navbar-text{
+    position: relative;
+    top: 5px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center ;
+}
+.boton-hover:hover{
+    background-color: #444444;
+    color: #eeeeee;
+    transition: 0.3s;
+}
+.btn-edit{
+    border-radius: 100%;
+}
+
+.cuadrado{
+    padding: 1em;
+    background-color:rgb(243, 243, 213);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    height: 100%;
+}
+
+.contenido{
+    padding: 1rem 2rem 1rem 2rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+.borde{
+    padding: 1.5rem;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.protrude{
+    position: relative;
+    margin-top: -80px;
+    z-index: 99;
+}
+
+.titulo{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:bolder;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    place-content: center;
+    justify-items: center;
+}
+
+@media (min-width: 992px) {
+    #menu{
+        max-height: 75px;
+    }
+ }
