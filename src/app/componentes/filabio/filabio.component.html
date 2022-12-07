@@ -1,0 +1,48 @@
+<div class="row m-0 justify-content-center">
+    <div class="col-lg-5 p-2">
+      <div class="cuadrado" >
+        <div class="protrude centrar">
+          
+          <img [src]="miPorfolio.profile" class="img-thumbnail img-fluid rounded-circle shadow" alt="Foto de perfil" 
+          id="cuerpo" height="140px" width="140px">
+          
+            <a href="#">
+              <div class="btn-edit boton-hover">
+              <i class="bi bi-pencil-square"></i>
+              </div>
+            </a>
+          
+        </div>
+        <div class="titulo">
+          <h4>{{miPorfolio.nombre}}</h4>
+        </div>
+        <div>
+          <p>{{miPorfolio.titulo}}</p>
+          <p>{{miPorfolio.location}}</p>
+        </div>
+        <div>
+          <button type="button" class="btn btn-primary">Añadir sección</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-7 p-2">
+      <div class="cuadrado">
+        <div class="titulo d-flex justify-content-between">
+          <div>
+            <h4><u>Acerca de mí</u></h4>
+          </div>
+          <div>
+            <a href="#">
+              <div class="btn-edit boton-hover">
+              <i class="bi bi-pencil-square"></i>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+
+        <p>{{miPorfolio.acerca_de}}</p>
+      </div>
+    </div>
+  </div>

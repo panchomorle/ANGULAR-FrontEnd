@@ -1,0 +1,75 @@
+<div class="row m-0 justify-content-center">
+    <div class="col-lg-6 p-2">
+      <div class="cuadrado" >
+        <div class="titulo d-flex justify-content-between">
+          <div>
+            <h4><u>Experiencia</u></h4>
+          </div>
+          <div>
+            <a href="#">
+              <div class="btn-edit boton-hover">
+              <i class="bi bi-plus-lg"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+          <div *ngFor="let exp of listaexp">
+            <div class="d-flex">  <!-- Card-->
+              <div class="p-3">
+                <img [src]="exp.img" alt="Logo de empresa" width="70px" height="70px">
+              </div>
+              <div class="p-3">
+                <p><strong>{{exp.firm}}</strong></p>
+                <p class="mb-0">{{exp.start}} - {{exp.end}}</p>
+              </div>
+            </div>
+            <hr class="bg-dark border-2 border-top border-dark">
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-6 p-2">
+      <div class="cuadrado">
+        <div class="titulo d-flex justify-content-between">
+          <div>
+            <h4><u>Educación</u></h4>
+          </div>
+          <div>
+            <a href="#">
+              <div class="btn-edit boton-hover">
+              <i class="bi bi-plus-lg"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        <ul class="items-list">
+          <li *ngFor="let edu of listaedu" style="list-style-type: none;">
+            <div class="d-flex align-items-center"> <!-- Card-->
+              <div class="p-3">
+                <img [src]="edu.img" [alt]="edu.alt" width="90px" height="100px">
+              </div>
+              
+              <div class="p-3">
+                <p><strong>{{edu.school}}</strong></p>
+                <p class="mb-0">{{edu.carreer}}</p>
+                <p class="mb-0">{{edu.start}} - {{edu.end}}</p>
+              </div>
+            </div>
+            <hr class="bg-dark border-2 border-top border-dark">
+          </li>
+        </ul>
+        <!-- <div class="d-flex align-items-center"> 
+          <div class="p-3">
+            <img src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/favicon/1662441043/favicon.ico" alt="EPET N°7" width="90px" height="100px">
+          </div>
+          
+          <div class="p-3">
+            <p><strong>Argentina programa</strong></p>
+            <p class="mb-0">#SeProgramar y #YoProgramo</p>
+            <p class="mb-0">2021 - Actualidad</p>
+          </div>
+        </div>
+        <hr class="bg-dark border-2 border-top border-dark"> -->
+
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,82 @@
+{
+    "nombre":"Juan Pablo Morales",
+    "titulo":"Programador Web Full Stack Junior",
+    "location":"Jardín América, Misiones, Argentina.",
+
+    "acerca_de":"¡Hola! Soy un Programador Junior de 18 años de edad. Mis primeros pasos en el mundo de la programación fueron en proyectos escolares ya que asisto a una Escuela Técnica con orientación en informática, y estoy en contacto con las nuevas tecnologías de manera autodidacta a tiempo completo. Pero para que puedas conocerme mejor, simplemente dejaré que sigas viendo mi portfolio ;)",
+
+    "backimg":"background-image: url('https://i.ibb.co/BBT5xHs/galaxia.jpg')",
+    "profile":"https://pbs.twimg.com/media/E0n-dCBWUAYSrQ7?format=jpg&name=large",
+
+    "exp":[
+
+        {   
+            "firm":"Pasantía laboral CESS I.T",
+            "img":"https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/243100667_292365976033087_8282884035068181895_n.png?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PuvoDflBQeEAX_Db8Ht&_nc_ht=scontent.fcnq2-2.fna&oh=00_AfB_ll7Eh78G4EJyuFB86jVRWQllGYT9UlrGHorh3eJvuw&oe=63681A63",
+            "carreer":"Técnico de PC y laptops",
+            "start":"2022",
+            "end":"2022"
+        },
+        {   
+            "firm":"MITT",
+            "img":"https://scontent.fcnq2-2.fna.fbcdn.net/v/t39.30808-6/243100667_292365976033087_8282884035068181895_n.png?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PuvoDflBQeEAX_Db8Ht&_nc_ht=scontent.fcnq2-2.fna&oh=00_AfB_ll7Eh78G4EJyuFB86jVRWQllGYT9UlrGHorh3eJvuw&oe=63681A63",
+            "carreer":"Técnico de PC y laptops",
+            "start":"2022",
+            "end":"2022"
+        }
+
+    ],
+
+    "education":[
+
+        {   
+            "school":"E.P.E.T N°7 - Secundario Técnico",
+            "img":"http://epetn7jardinamerica.edu.ar/institucional/wp-content/uploads/2020/10/cropped-Logo-EPET-sin-fondo-2-192x192.png",
+            "alt":"EPET N°7",
+            "carreer":"Técnico en informática profesional y personal",
+            "start":"2017",
+            "end":"Actualidad"
+        },
+        {   
+            "school":"Argentina programa",
+            "img":"https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/favicon/1662441043/favicon.ico",
+            "alt":"Argentina programa",
+            "carreer":"#SeProgramar y #YoProgramo",
+            "start":"2021",
+            "end":"Actualidad"
+        }
+
+    ],
+    "skills":[
+
+        {   
+            "skill":"Desarrollo front-end",
+            "percentage":"75"
+        },
+        {   
+            "skill":"Desarrollo back-end",
+            "percentage":"30"
+        },
+        {   
+            "skill":"Inglés",
+            "percentage":"90"
+        },
+        {   
+            "skill":"Portugués",
+            "percentage":"40"
+        },
+        {   
+            "skill":"Fast learning",
+            "percentage":"100"
+        },
+        {   
+            "skill":"Time management",
+            "percentage":"50"
+        },
+        {   
+            "skill":"Team work",
+            "percentage":"90"
+        }
+
+    ]
+ }
